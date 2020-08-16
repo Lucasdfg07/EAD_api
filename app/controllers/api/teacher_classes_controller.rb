@@ -26,8 +26,6 @@ class Api::TeacherClassesController < ApplicationController
 
             render json: {status: 200, message: 'Agendamento realizado com sucesso!'}
         end
-        rescue
-            render json: {status: 500, message: 'Não foi possível completar o Agendamento!'}
     end
 
     private
@@ -58,7 +56,7 @@ class Api::TeacherClassesController < ApplicationController
             @schedule.teacher_class_id = @class.id
             
             if !@schedule.save!
-                render json: {status: 500, message: 'Não foi possível fazer o agendamento!'}
+                render json: {status: 500, message: 'Schedule faltando alguns parâmetros!'}
             end
         end
     end
