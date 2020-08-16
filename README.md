@@ -1,24 +1,57 @@
-# README
+## Proffy EAD api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Application made with Ruby on Rails into Rocketseat's Next Level Week. It's an API made to the Proffy front-end repository(https://github.com/Lucasdfg07/EAD_app).
 
-Things you may want to cover:
+The original app were done with Node JS backend.
 
-* Ruby version
+## Video Presentation
+[<img src="https://github.com/Lucasdfg07/EAD_app/blob/master/src/assets/images/readme/home.png" width="50%">](https://www.linkedin.com/posts/lucas-siqueira-167362148_programming-rubyonrails-fullstack-activity-6700864370039169024-P97i "Click to see the youtube video!")
 
-* System dependencies
 
-* Configuration
+## Technology 
 
-* Database creation
+Here are the technologies used in this project.
 
-* Database initialization
+* Ruby 2.3.4
+* Rails 5.2.4.3
 
-* How to run the test suite
+## Gems
+* Rack Cors
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Services Used
 
-* ...
+* Github
+
+
+## Getting started
+
+* Clone the repository.
+>    $ git clone https://github.com/Lucasdfg07/EAD_app
+
+* Run Bundle:
+>    $ bundle install
+
+* Running application:
+>    $ rails s -p 3001
+
+
+
+## Links
+  - Repository: https://github.com/Lucasdfg07/EAD_api
+    - In case of sensitive bugs like security vulnerabilities, please contact
+      Lucassiqueiraferandes07@gmail.com directly instead of using issue tracker. We value your effort
+      to improve the security and privacy of this project!
+
+  ## Versioning
+
+  1.0.0.0
+
+
+  ## Authors
+  
+  * **Lucas Siqueira**: @lucasdfg07 (https://github.com/Lucasdfg07)
+
+  Please follow github and join us!
+  Thanks to visiting me and good coding!
+
